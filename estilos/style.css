@@ -38,3 +38,22 @@ main{
     width: 208px;
     height: 367px;
 }
+#redes-sociais a  img{
+    width: 50px;
+    margin: 10px;
+    box-shadow: 2px  2px 5px rgba(0, 0, 0, 0.363);
+    border-radius: 50%;
+    position: relative;
+    box-sizing: border-box;
+}
+
+#redes-sociais img:hover{
+    border: 2px solid rgba(255, 255, 255, 0.671);
+    transform: translate(-10px, -3px);
+    box-shadow: 5px  5px 5px rgba(0, 0, 0, 0.363);
+    transition: transform .3s, border .5s;
+}
+
+#redes-sociais{
+    text-align: right;
+}
